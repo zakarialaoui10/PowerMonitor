@@ -68,7 +68,15 @@ double Power::pf() {
     double vEffValue = vEff();
     return Pvalue / (iEffValue * vEffValue);
 }
-
+double Power::Req(){
+  return P()/(iEff()*iEff());   
+}
+double Power::Xeq(){
+  return Q()/(iEff()*iEff());   
+}
+double Power::Zeq(){
+  return sqrt(Req()*Req()+Xeq()*Xeq()); 
+}
 double Power::calculEff(double values1[], double values2[]) {
     double sum = 0.0;
     for (int i = 0; i < _length; i++) {
@@ -104,5 +112,7 @@ void Power::print(){
   Serial.println(pf());
   Serial.print("N: ");
   Serial.println(_length);
+  //Serial.print("Req: ");
+  //Serial.println(Req());
   Serial.println(".......................................");
 }
