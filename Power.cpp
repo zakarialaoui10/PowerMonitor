@@ -1,6 +1,6 @@
 #include "PowerLib.h"
 #include <math.h>
-Power::Power(double I[], double V[], int length) {
+Power::Power(double *I, double *V, int length) {
     _I = new double[length];
     _V = new double[length];
     _length = length;
