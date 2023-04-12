@@ -1,6 +1,6 @@
 # PowerMonitor
 
-# initialise 
+# Initialise 
 ```ino     
   Power power(I, V , N); 
   // I, V and N should be predefined 
