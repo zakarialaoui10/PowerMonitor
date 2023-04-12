@@ -1,0 +1,19 @@
+{
+  "name":"PowerMonitor",
+  "version":"0.9.0",
+  "description":"",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/zakarialaoui10/PowerMonitor.git"
+  },
+  "authors":[
+    "name":"Zakaria Elalaoui",
+    "email":"",
+    "url":"",
+    "maintainer":true
+  ],
+  "license":"MIT",
+  "homepage":"https://github.com/zakarialaoui10/PowerMonitor",
+  "frameworks":"*",
+  "platforms":["arduino"]
+}
