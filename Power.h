@@ -1,8 +1,11 @@
 #ifndef PowerLib_h
 #define PowerLib_h
+#include<Arduino.h>
 class Power {
 public:
-    Power(double I[], double V[], int length);
+    Power(double *I, double *V, int length);
+    Power(int length);
+    Power();
     double iEff();
     double vEff();
     double iMoy();
@@ -11,7 +14,8 @@ public:
     double Q();
     double S();
     double pf();
-private:
+    void print();
+public:
     double* _I;
     double* _V;
     int _length;
