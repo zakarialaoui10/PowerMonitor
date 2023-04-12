@@ -1,5 +1,5 @@
-#ifndef PowerLib_h
-#define PowerLib_h
+#ifndef PowerMonitor
+#define PowerMonitor
 #include<Arduino.h>
 class Power {
 public:
