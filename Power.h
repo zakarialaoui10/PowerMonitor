@@ -3,9 +3,7 @@
 #include<Arduino.h>
 class Power {
 public:
-    Power(double *I, double *V, int length);
-    Power(int length);
-    Power();
+    Power(double *I, double *V, int length);;
     double iEff();
     double vEff();
     double iMoy();
@@ -17,6 +15,9 @@ public:
     void print();
     void push(double i,double v);
     void clear();
+    double Req();
+    double Xeq();
+    double Zeq();
 public:
     double* _I;
     double* _V;
