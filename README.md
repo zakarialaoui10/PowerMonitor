@@ -11,3 +11,6 @@
 | Q() | The reactive power (in volt-ampere-reactive or VAR) of the circuit|
 | S() | The apparent power (in volt-ampere or VA) of the circuit.|
 | pf() | The power factor of the circuit |
+| Req() | The equivalent resistance of the circuit |
+| Req() | The equivalent resistance of the circuit |
+| Zeq() | The equivalent impedance of the circuit |
