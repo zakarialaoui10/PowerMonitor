@@ -16,6 +16,7 @@ public:
     double pf();
     void print();
     void push(double i,double v);
+    void clear();
 public:
     double* _I;
     double* _V;
