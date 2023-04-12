@@ -14,3 +14,8 @@
 | Req() | The equivalent resistance of the circuit |
 | Req() | The equivalent resistance of the circuit |
 | Zeq() | The equivalent impedance of the circuit |
+
+| Methode | arguments | Description |
+| --- | ------------- |-----------------|
+| print() |-|print the different factors of the circuit |
+| push() | i : double , v : double | Adds a new value to the I and V arrays. |
