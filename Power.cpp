@@ -74,3 +74,24 @@ double Power::calculMean(double values[]) {
     }
     return sum / _length;
 }
+void Power::print(){
+  Serial.print("iEff: ");
+  Serial.println(iEff());
+  Serial.print("vEff: ");
+  Serial.println(vEff());
+  Serial.print("iMoy: ");
+  Serial.println(iMoy());
+  Serial.print("vMoy: ");
+  Serial.println(vMoy());
+  Serial.print("P: ");
+  Serial.println(P());
+  Serial.print("Q: ");
+  Serial.println(Q());
+  Serial.print("S: ");
+  Serial.println(S());
+  Serial.print("pf: ");
+  Serial.println(pf());
+  Serial.print("N: ");
+  Serial.println(_length);
+  Serial.println(".......................................");
+}
