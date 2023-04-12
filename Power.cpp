@@ -9,7 +9,11 @@ Power::Power(double *I, double *V, int length) {
         _V[i] = V[i];
     }
 }
-
+void Power::push(double i, double v){
+  _I[_length]=i;
+  _V[_length]=v;
+  _length++;
+}
 double Power::iEff() {
     double iEffValue = calculEff(_I, _I);
     return iEffValue;
