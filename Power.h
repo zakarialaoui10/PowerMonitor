@@ -15,6 +15,7 @@ public:
     double S();
     double pf();
     void print();
+    void push(double i,double v);
 public:
     double* _I;
     double* _V;
