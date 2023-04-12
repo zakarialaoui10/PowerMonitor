@@ -3,7 +3,10 @@
 #include<Arduino.h>
 class Power {
 public:
-    Power(double *I, double *V, int length);;
+    Power(double *I, double *V, int length);
+    double* _I;
+    double* _V;
+    int _length;
     double iEff();
     double vEff();
     double iMoy();
@@ -18,10 +21,7 @@ public:
     double Req();
     double Xeq();
     double Zeq();
-public:
-    double* _I;
-    double* _V;
-    int _length;
+private:
     double calculEff(double values1[], double values2[]);
     double calculMean(double values[]);
 };
