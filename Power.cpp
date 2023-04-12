@@ -12,7 +12,14 @@ Power::Power(double *I, double *V, int length) {
 void Power::push(double i, double v){
   _I[_length]=i;
   _V[_length]=v;
-  _length++;
+  _length++;  
+}
+void Power::clear(){
+  delete[] _I;
+  delete[] _V;
+  _I=new double(0);
+  _V=new double(0);
+  _length=0;
 }
 double Power::iEff() {
     double iEffValue = calculEff(_I, _I);
