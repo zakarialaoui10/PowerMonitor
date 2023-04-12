@@ -1,4 +1,4 @@
-#include "PowerMonitor.h"
+#include "PowerLib.h"
 #include <math.h>
 Power::Power(double *I, double *V, int length) {
     _I = new double[length];
