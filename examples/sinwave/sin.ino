@@ -1,7 +1,7 @@
 /*
  In the example given I didn't use voltage and current sensors and I have generated two arrays of I and V to check the results and compare them with the theorical ones
 
-*/
+*/ 
 
 #include "PowerMonitor.h"
 #define N 100
