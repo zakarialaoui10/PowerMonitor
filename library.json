@@ -15,5 +15,5 @@
   "license":"MIT",
   "homepage":"https://github.com/zakarialaoui10/PowerMonitor",
   "frameworks":"*",
-  "platforms":["arduino"]
+  "platforms":"*"
 }
