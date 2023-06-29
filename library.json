@@ -2,7 +2,7 @@
   "name":"PowerMonitor",
   "version":"1.0.1",
   "description":"",
-  "repository":{
+  "repository":{ 
     "type":"git",
     "url":"https://github.com/zakarialaoui10/PowerMonitor.git"
   },
