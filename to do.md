@@ -6,5 +6,5 @@ P    ✅
 Q    ✅
 S    ✅
 PF   ✅
-F    ❌
+F    ❌ 
 triphasé 
