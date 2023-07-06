@@ -4,7 +4,7 @@ Imoy ✅
 Vmoy ✅
 P    ✅
 Q    ✅
-S    ✅
+S    ✅ 
 PF   ✅
 F    ❌ 
 triphasé 
