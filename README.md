@@ -25,3 +25,21 @@
 | `print()`|-------------------------|print the different factors of the circuit |
 | `push()` | i : double , v : double | Adds a new value to the I and V arrays. |
 
+
+
+
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Create a circle element -->
+  <circle cx="50" cy="50" r="40" fill="blue">
+    <!-- Add an animation to the circle -->
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      type="rotate"
+      from="0 50 50"
+      to="360 50 50"
+      dur="3s"
+      repeatCount="indefinite"  <!-- Make the animation repeat indefinitely -->
+    />
+  </circle>
+</svg>
