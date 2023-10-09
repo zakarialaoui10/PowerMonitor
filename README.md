@@ -28,5 +28,4 @@
 
 
 
-![Rotating Circle](https://example.com/rotating-circle.svg)
 
