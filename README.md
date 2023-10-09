@@ -28,18 +28,5 @@
 
 
 
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <!-- Create a circle element -->
-  <circle cx="50" cy="50" r="40" fill="blue">
-    <!-- Add an animation to the circle -->
-    <animateTransform
-      attributeName="transform"
-      attributeType="XML"
-      type="rotate"
-      from="0 50 50"
-      to="360 50 50"
-      dur="3s"
-      repeatCount="indefinite"  <!-- Make the animation repeat indefinitely -->
-    />
-  </circle>
-</svg>
+![Rotating Circle](https://example.com/rotating-circle.svg)
+
