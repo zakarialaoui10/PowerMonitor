@@ -7,4 +7,4 @@ Q    ✅
 S    ✅ 
 PF   ✅
 F    ❌ 
-triphasé 
+triphasé ❌ 
