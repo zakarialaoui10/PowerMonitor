@@ -2,7 +2,7 @@ Ieff ✅
 Veff ✅
 Imoy ✅
 Vmoy ✅
-P    ✅
+P    ✅ 
 Q    ✅
 S    ✅ 
 PF   ✅
