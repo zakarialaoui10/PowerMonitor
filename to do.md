@@ -9,5 +9,5 @@ PF   ✅
 F    ❌ 
 triphasé ❌ 
 
-doc ( ziko js ) 
+doc ( ziko js ) json
 strapi ?
