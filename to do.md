@@ -13,4 +13,4 @@ doc ( ziko js ) json
 strapi ?
 dir2tree 
 adoc  
-fix F 3p
+fix F 3ph
