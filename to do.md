@@ -7,7 +7,7 @@ Q    ✅
 S    ✅  
 PF   ✅
 F    ❌ 
-triphasé ❌   
+triphasé ❌    
 
 
 doc ( ziko js ) json
