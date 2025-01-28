@@ -1,4 +1,8 @@
-<!-- doc -->
+<!-- 
+doc
+ ui : ziko
+ rendering : astro ?
+ -->
 # PowerMonitor   
     
 # Initialise   
