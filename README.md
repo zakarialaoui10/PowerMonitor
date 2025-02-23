@@ -3,7 +3,7 @@ doc
  ui : ziko
  rendering : astro ? solid ?
  -->
-# PowerMonitor   
+# PowerMonitor    
     
 # Initialise   
 ```ino     
