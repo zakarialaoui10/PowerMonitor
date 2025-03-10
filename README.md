@@ -1,6 +1,6 @@
 <!-- 
 doc
- ui : ziko
+ ui : ziko 
  rendering : astro ? solid ?
  -->
 # PowerMonitor    
